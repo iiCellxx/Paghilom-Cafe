@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Paghilom Café — Healing in a Cup · Sta. Cruz & Caliraya, Laguna</title>
+  <meta name="description" content="Paghilom Café serves coffee, matcha, frappes, hibiscus teas and waffles in Laguna. Visit our Sta. Cruz main branch or our new Caliraya branch with a view of the lake.">
+  <meta name="theme-color" content="#36602c">
+  <meta property="og:title" content="Paghilom Café — Healing in a Cup">
+  <meta property="og:description" content="Hayaang sarili ay maghilom. Coffee, matcha and more in Sta. Cruz and Caliraya, Laguna.">
+  <meta property="og:image" content="images/caliraya-dusk.jpg">
+  <link rel="icon" href="images/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="nav" id="top">
+    <div class="wrap nav__inner">
+      <a class="brand" href="#top" aria-label="Paghilom Café home">
+        <img class="brand__logo" src="images/logo.png" alt="" width="48" height="48">
+        <span class="brand__name">Paghilom Café</span>
+      </a>
+      <button class="nav__toggle" aria-expanded="false" aria-controls="menu-nav" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="menu-nav" class="nav__links" aria-label="Primary">
+        <a href="#about">Our Story</a>
+        <a href="#menu">Menu</a>
+        <a href="#branches">Branches</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#visit" class="btn btn--small">Visit Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero__bg" role="img" aria-label="Paghilom Café Caliraya branch at dusk overlooking the lake"></div>
+      <div class="hero__shade"></div>
+      <div class="wrap hero__content">
+        <img class="hero__logo" src="images/logo.png" alt="Paghilom Café logo" width="112" height="112">
+        <p class="eyebrow eyebrow--light">Sta. Cruz · Caliraya · Laguna</p>
+        <h1>Healing<br>in a cup.</h1>
+        <p class="hero__tag">Hayaang sarili ay <em>maghilom.</em> Mas magaan kaysa kahapon.</p>
+        <div class="hero__cta">
+          <a class="btn" href="#menu">See the menu</a>
+          <a class="btn btn--ghost" href="#branches">Find a branch</a>
+        </div>
+      </div>
+      <a class="hero__scroll" href="#about" aria-label="Scroll to story"><span></span></a>
+    </section>
+
+    <!-- NEW BRANCH BANNER -->
+    <section class="banner" aria-label="Announcement">
+      <div class="wrap banner__inner">
+        <span class="banner__dot" aria-hidden="true"></span>
+        <p><strong>Caliraya Branch is here.</strong> Soft-opened July 16–17, 2026 at Brgy. Lewin-Caliraya, Lumban, Laguna — come see the lake from your table.</p>
+        <a href="#branches" class="banner__link">Details →</a>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="wrap about">
+        <div class="about__text">
+          <p class="eyebrow">Our story</p>
+          <h2>A quiet place to feel lighter.</h2>
+          <p>“Paghilom” means <em>to heal</em>. We built our café around one simple idea: a good cup, a calm room and a wide view can make today feel a little gentler than yesterday.</p>
+          <p>From classic espresso drinks to matcha, ube, hibiscus teas and frappes, everything on our menu is made to be shared, savored and slowed down for.</p>
+          <ul class="chips" aria-label="Highlights">
+            <li>Coffee &amp; Matcha</li>
+            <li>Oat Series</li>
+            <li>Hibiscus Teas</li>
+            <li>Waffles &amp; Nachos</li>
+          </ul>
+        </div>
+        <div class="about__media">
+          <figure class="ph ph--tall">
+            <img src="images/interior.jpg" alt="Inside Paghilom Café Caliraya: woven pendant lamps, a green counter and floor-to-ceiling lake views" loading="lazy" onerror="this.remove()">
+          </figure>
+          <div class="about__badge" aria-hidden="true">
+            <span>healing</span><span>in a cup</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MENU -->
+    <section class="section section--sage" id="menu">
+      <div class="wrap">
+        <header class="section__head">
+          <p class="eyebrow">The menu</p>
+          <h2>Sip, snack, repeat.</h2>
+          <p class="lede">All prices in Philippine pesos. Menu and prices may change — please confirm in store.</p>
+        </header>
+
+        <div class="tabs" role="tablist" aria-label="Menu categories" id="tabs"></div>
+        <div id="menu-root" class="menu" aria-live="polite">
+          <noscript><p class="lede">Please enable JavaScript to browse the menu, or message us on Instagram @paghilom_cafe.</p></noscript>
+        </div>
+      </div>
+    </section>
+
+    <!-- BRANCHES -->
+    <section class="section" id="branches">
+      <div class="wrap">
+        <header class="section__head">
+          <p class="eyebrow">Two places to heal</p>
+          <h2>Our branches</h2>
+        </header>
+
+        <div class="branches">
+          <article class="branch">
+            <figure class="ph ph--wide">
+              <img src="images/signage.jpg" alt="Paghilom Café hanging sign at the Sta. Cruz main branch" loading="lazy" onerror="this.remove()">
+            </figure>
+            <div class="branch__body">
+              <p class="tag">Main Branch</p>
+              <h3>Sta. Cruz</h3>
+              <address>
+                4091 Sitio 2, Barangay Bagumbayan<br>
+                Sta. Cruz, Laguna 4009, Philippines
+              </address>
+              <p class="branch__links">
+                <a class="btn btn--small" href="https://www.google.com/maps/search/?api=1&query=Paghilom+Cafe+4091+Sitio+2+Barangay+Bagumbayan+Sta+Cruz+Laguna" target="_blank" rel="noopener">Get directions</a>
+                <a class="link" href="tel:+639287197722">0928 719 7722</a>
+              </p>
+            </div>
+          </article>
+
+          <article class="branch branch--new">
+            <figure class="ph ph--wide">
+              <img src="images/caliraya-corner.jpg" alt="Paghilom Café Caliraya branch: white building with a glowing green sign and a terrace overlooking the lake" loading="lazy" onerror="this.remove()">
+              <span class="ribbon">New</span>
+            </figure>
+            <div class="branch__body">
+              <p class="tag">Caliraya Branch</p>
+              <h3>Lumban</h3>
+              <address>
+                Brgy. Lewin-Caliraya<br>
+                Lumban, Laguna, Philippines
+              </address>
+              <p class="note">Soft opening ran July 16 &amp; 17, 2026, 3:00 PM – 11:30 PM. A hilltop terrace, string lights and a sunset view of the lake.</p>
+              <p class="branch__links">
+                <a class="btn btn--small" href="https://www.google.com/maps/search/?api=1&query=Paghilom+Cafe+Caliraya+Lewin+Lumban+Laguna" target="_blank" rel="noopener">Get directions</a>
+                <a class="link" href="https://www.instagram.com/paghilom_cafe" target="_blank" rel="noopener">Latest on Instagram</a>
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="section section--dark" id="gallery">
+      <div class="wrap">
+        <header class="section__head section__head--light">
+          <p class="eyebrow eyebrow--light">Golden hour</p>
+          <h2>Glow, greenery &amp; lake views.</h2>
+        </header>
+        <div class="gallery">
+          <figure class="ph g1"><img src="images/caliraya-dusk.jpg" alt="Caliraya branch glowing at dusk between coconut palms" loading="lazy" onerror="this.remove()"></figure>
+          <figure class="ph g2"><img src="images/caliraya-entrance.jpg" alt="Front entrance with warm lanterns and fern planters" loading="lazy" onerror="this.remove()"></figure>
+          <figure class="ph g3"><img src="images/caliraya-corner.jpg" alt="Terrace tables and chairs facing the lake" loading="lazy" onerror="this.remove()"></figure>
+          <figure class="ph g4"><img src="images/interior.jpg" alt="Café interior with rattan pendant lamps" loading="lazy" onerror="this.remove()"></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- VISIT / CONTACT -->
+    <section class="section visit" id="visit">
+      <div class="wrap visit__inner">
+        <div>
+          <p class="eyebrow">Come say hi</p>
+          <h2>Let’s share the real meaning of “healing in a cup.”</h2>
+        </div>
+        <ul class="contact">
+          <li>
+            <span class="contact__label">Call or text</span>
+            <a href="tel:+639287197722">0928 719 7722</a>
+          </li>
+          <li>
+            <span class="contact__label">Instagram</span>
+            <a href="https://www.instagram.com/paghilom_cafe" target="_blank" rel="noopener">@paghilom_cafe</a>
+          </li>
+          <li>
+            <span class="contact__label">Main branch</span>
+            <span>4091 Sitio 2, Brgy. Bagumbayan, Sta. Cruz, Laguna</span>
+          </li>
+          <li>
+            <span class="contact__label">Caliraya branch</span>
+            <span>Brgy. Lewin-Caliraya, Lumban, Laguna</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <img class="footer__logo" src="images/logo.png" alt="Paghilom Café logo" width="120" height="120">
+      <p class="footer__tags">#paghilomcafe · #paghilomcaliraya · #masmagaankaysakahapon · #hayaangsariliaymaghilom</p>
+      <p class="footer__copy">© <span id="year">2026</span> Paghilom Café. Hayaang sarili ay maghilom.</p>
+    </div>
+  </footer>
+
+  <script src="menu.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
