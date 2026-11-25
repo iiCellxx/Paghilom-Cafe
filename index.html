@@ -90,13 +90,25 @@
         <header class="section__head">
           <p class="eyebrow">The menu</p>
           <h2>Sip, snack, repeat.</h2>
-          <p class="lede">All prices in Philippine pesos. Menu and prices may change — please confirm in store.</p>
+          <p class="lede">All prices in Philippine pesos. Menu and prices may change — please confirm in store. Tap a page to view it full size.</p>
         </header>
 
-        <div class="tabs" role="tablist" aria-label="Menu categories" id="tabs"></div>
-        <div id="menu-root" class="menu" aria-live="polite">
-          <noscript><p class="lede">Please enable JavaScript to browse the menu, or message us on Instagram @paghilom_cafe.</p></noscript>
-        </div>
+        <ul class="menu-pics" aria-label="Menu pages">
+          <li><a href="images/menu/menu-coffee-non-coffee.jpg" target="_blank" rel="noopener"><img src="images/menu/menu-coffee-non-coffee.jpg" alt="Paghilom Café menu page: Coffee and Non Coffee drinks with prices" width="1448" height="1837" loading="lazy"></a></li>
+          <li><a href="images/menu/menu-new-flavors.jpg" target="_blank" rel="noopener"><img src="images/menu/menu-new-flavors.jpg" alt="Paghilom Café menu page: New Flavors, with Mont Blanc Coffee, Sea Salt Latte, Vietnamese Egg Coffee, Matcha Oreo, Biscoff Matcha and Hibiscus Tea" width="1448" height="1832" loading="lazy"></a></li>
+          <li><a href="images/menu/menu-grapefruit-hibiscus.jpg" target="_blank" rel="noopener"><img src="images/menu/menu-grapefruit-hibiscus.jpg" alt="Paghilom Café menu page: new Iced Grapefruit Black Tea and the Hibiscus teas (Yakult, Orange and Lemon) with prices" width="1545" height="2000" loading="lazy"></a></li>
+          <li><a href="images/menu/menu-matcha-sparkle.jpg" target="_blank" rel="noopener"><img src="images/menu/menu-matcha-sparkle.jpg" alt="Paghilom Café menu page: Matcha Series and Sparkle drinks with prices" width="1448" height="1837" loading="lazy"></a></li>
+          <li><a href="images/menu/menu-oat-frappe.jpg" target="_blank" rel="noopener"><img src="images/menu/menu-oat-frappe.jpg" alt="Paghilom Café menu page: Oat Series and Frappe, coffee-based and non-coffee, with prices" width="1448" height="1832" loading="lazy"></a></li>
+          <li><a href="images/menu/menu-nachos-waffle.jpg" target="_blank" rel="noopener"><img src="images/menu/menu-nachos-waffle.jpg" alt="Paghilom Café menu page: Beef Nachos, Nachos Plain Cheese, Strawberry Cream Waffle and Rocky Road Waffle with prices" width="1536" height="2048" loading="lazy"></a></li>
+        </ul>
+
+        <details class="menu-text">
+          <summary>View the menu as text</summary>
+          <div class="tabs" role="tablist" aria-label="Menu categories" id="tabs"></div>
+          <div id="menu-root" class="menu" aria-live="polite">
+            <noscript><p class="lede">The text menu needs JavaScript. The pictures above show every item and price.</p></noscript>
+          </div>
+        </details>
       </div>
     </section>
 
