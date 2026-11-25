@@ -108,8 +108,9 @@ p { margin: 0 0 1em; }
 
 /* About */
 .about { display: grid; grid-template-columns: 1.1fr 1fr; gap: clamp(32px, 6vw, 80px); align-items: center; }
-.chips { list-style: none; display: flex; flex-wrap: wrap; gap: 10px; padding: 0; margin: 1.5rem 0 0; }
-.chips li { padding: 6px 16px; border-radius: 999px; background: var(--sage); color: var(--green-deep); font-size: .88rem; font-weight: 500; }
+.about__text h2 { font-size: clamp(1.7rem, 3.4vw, 2.4rem); color: var(--green); margin-bottom: .35em; }
+.about__text h2:not(:first-child) { margin-top: 1.6em; }
+.about__text p { font-size: 1.1rem; max-width: 46ch; }
 .about__media { position: relative; max-width: 440px; justify-self: center; width: 100%; }
 .about__badge { position: absolute; right: -14px; bottom: 32px; width: 124px; height: 124px; border-radius: 50%; background: var(--green); color: #fff; display: grid; place-content: center; text-align: center; font-family: var(--serif); font-size: .95rem; line-height: 1.25; box-shadow: var(--shadow); border: 4px solid var(--cream); transform: rotate(-8deg); }
 
